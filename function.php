@@ -3,6 +3,7 @@
 // ====================================================
 //  Localhost MySQL 接続
 // ====================================================
+/*
 function connect_db()
 {
 // $dsn = 'mysql:dbname=dakoku_app;port=8889;host=localhost';
@@ -12,11 +13,11 @@ function connect_db()
     $dbh = new PDO($dsn, $user, $password);
     return $dbh;
 }
+*/
 
 // ====================================================
 //  Heroku MySQL 接続
 // ====================================================
-/*
 function connect_db()
 {
     //mysql://b47e03f8b4929d:5d0f3671@us-cdbr-east-05.cleardb.net/heroku_5238230432e57ac?reconnect=true
@@ -26,7 +27,6 @@ function connect_db()
     $dbh = new PDO($dsn, $user, $password);
     return $dbh;
 }
-*/
 
 
 // 日付を日(曜日)の形式に変換する
