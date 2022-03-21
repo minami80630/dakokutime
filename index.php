@@ -16,7 +16,7 @@
   <!-- Original CSS -->
   <link href="css/style.css" rel="stylesheet">
 
-  <title>勤怠画面1 | TIME</title>
+  <title>勤怠画面 | TIME</title>
 </head>
 
 <body class="text-center bg-light">
